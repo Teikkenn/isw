@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   get 'home/contacto'
   get 'home/yuri'
   get 'foro/foroPrincipal'
-  
   root 'home#index'
 
 end
